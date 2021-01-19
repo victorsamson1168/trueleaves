@@ -33,3 +33,9 @@ p.numpath{
     border-radius: 40px;
     background: rgba(255,255,255,.5);
 }
+a{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration: none;
+}
