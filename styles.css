@@ -5,3 +5,31 @@ p.numpath{
     border-radius: 20px;
     height: 80%;
 }
+/* body{
+    background-image: url(/assests/bb.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    
+} */
+.gr
+{
+    z-index: -2;
+    width: 400px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    opacity: 50%;
+}
+.grn
+{
+    z-index: -3;
+    width: 400px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    opacity: 50%;
+}
+.logbk{
+    border-radius: 40px;
+    background: rgba(255,255,255,.5);
+}
