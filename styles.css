@@ -18,7 +18,7 @@ p.numpath{
     position: fixed;
     bottom: 0;
     left: 0;
-    opacity: 50%;
+    opacity: 65%;
 }
 .grn
 {
@@ -27,7 +27,7 @@ p.numpath{
     position: fixed;
     top: 0;
     right: 0;
-    opacity: 50%;
+    opacity: 65%;
 }
 .logbk{
     border-radius: 40px;
