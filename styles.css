@@ -39,3 +39,11 @@ a{
 a:hover{
     text-decoration: none;
 }
+div .review{
+    font-size: 2.2 rem ;
+}
+
+.design{
+    font-family: 'Sacramento', cursive;
+    font-size: 3 rem;
+}

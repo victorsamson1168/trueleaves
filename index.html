@@ -6,7 +6,11 @@
     <title>Document</title>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+
 
 </head>
 <body>
@@ -17,7 +21,7 @@
   <div class="container mx-auto flex flex-wrap p-1 flex-col md:flex-row items-center">
     <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
       <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-green-500 rounded-full" viewBox="0 0 24 24"> -->
-       <img src="assests/logo.png" alt="logo" height="200px" width="200px" class="logbk">
+       <img src="assests/logo.png" alt="logo" height="300px" width="300px" class="logbk">
         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
       </svg>
     </a>
@@ -45,29 +49,25 @@
             <div class="carousel-item active">
               <img class="d-block w-100 rou" src="assests/im1.jpg" alt="First slide">
               <div class="carousel-caption d-none d-md-block">
-                <h2>Growing flavours</h2>
-                <p>...</p>
+                
               </div>
             </div>
             <div class="carousel-item">
               <img class="d-block w-100 img-rounded rou" src="assests/im2.jpg" alt="Second slide">
               <div class="carousel-caption d-none d-md-block">
-                <h2>Growing flavours</h2>
-                <p>...</p>
+                
               </div>
             </div>
             <div class="carousel-item">
               <img class="d-block w-100 img-rounded rou" src="assests/im3.jpg" alt="Third slide">
               <div class="carousel-caption d-none d-md-block">
-                <h2>Growing flavours</h2>
-                <p>...</p>
+                
               </div>
             </div>
             <div class="carousel-item">
               <img class="d-block w-100 img-rounded rou" src="assests/im4.jpg" alt="Fourth slide">
               <div class="carousel-caption d-none d-md-block">
-                <h2>Growing flavours</h2>
-                <p>...</p>
+                
               </div>
             </div>
           </div>
@@ -86,11 +86,11 @@
 
     <section class="text-gray-600 body-font">
       <div class="container px-5 py-24 mx-auto">
-        <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+        <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center ">
           <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
             <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
           </svg>
-          <p class="leading-relaxed text-lg">What we need is food grown with care, by and for people who care</p>
+          <p class="leading-relaxed text-lg text-3xl">What we need is food grown with care, by and for people who care</p>
           <span class="inline-block h-1 w-10 rounded bg-green-500 mt-8 mb-6"></span>
           <h1 class="text-gray-900 font-medium title-font tracking-wider text-sm">JM Fortier</h1>
           <p class="text-gray-500">&bull;&bull;&bull;</p>
@@ -102,61 +102,86 @@
 
       <section class="text-gray-600 body-font" id="mission">
         <div class="container px-5 py-24 mx-auto">
-          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Our Mission</h1>
-            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Our mission is to grow and provide sustainable, safe and healthy food to everyone at affordable prices all year round.  We aspire achieve our  mission by growing food locally, using responsible and innovative farming methods that maximise yields, optimize natural resources and are profitable</p>
+
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center" data-aos="fade-right" data-aos-duration="3000">
+            <h1 class=" text-5xl font-large title-font mb-2 text-gray-900 design ">Who we are</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">We are Ponic Farms LLP and We grow flavours, nutrition and sustainability! We are here to bridge the gap between people and nutritious produce by making it affordable for everyone.  We strive to offer food security for our community and, to us, this means maintaining a steady supply of clean foods that are free of pesticides, herbicides, and fungicides.  Our farming methods are environment-friendly, using at least 80% less water than land and traditional agriculture practices. We harvest our vegetables and mushrooms only when ordered, ensuring freshness upon delivery.</p>
           </div>
-          <div class="flex flex-wrap -m-4">
-            <div class="xl:w-1/3 md:w-1/3 p-4">
+
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center" data-aos="fade-left" data-aos-duration="3000">
+            <h1 class=" text-5xl font-large title-font mb-2 text-gray-900 design ">Our story</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">When the going gets tough, the tough get Growing! Our story began as a terrace garden project during the COVID-19 pandemic when we recognized a desperate need for locally grown food that was clean and free from harmful chemicals. We focused our attention on growing delicious leafy greens and microgreens using hydroponic methods. We realised that there was more to food than just eating to nourish and energise our bodies.  We were assured that our food was free from contamination- was not doused in wax or injected with steroids for premature ripening or dipped in colours to make them symmetric vegetables.  Having refined our processes, we’re now ready to scale up to commercial production so that everyone can enjoy our bountiful harvest.  </p>
+          </div>
+
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center" data-aos="fade-right" data-aos-duration="3000">
+            <h1 class=" text-5xl font-large title-font mb-2 text-gray-900 design ">Our mission</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">We are on a mission to make food a “Living Experience” for everyone. Our goal is to introduce high quality greens and vegetables by growing them locally using farming methods that are kind on people and the planet. </p>
+          </div>
+
+
+
+          <div class="flex flex-wrap -m-4" >
+            <div class="xl:w-1/3 md:w-1/3 p-4" data-aos="zoom-in" data-aos-duration="2500">
               <div class="border border-gray-200 p-6 rounded-lg">
                 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
                   <h4>1</h4>
                 </div>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Reduced Food Miles</h2>
-                <p class="leading-relaxed text-base"> By growing locally we reduce the Farm-To-Table distance from miles to food steps. Food grown locally , closer to the point of consumption becomes independent of food supply chain.
+                <h2 class="text-3xl text-3x1 text-gray-900 font-medium title-font mb-2 design" >Reduced Food Miles</h2>
+                <p class="leading-relaxed text-base"> We grow food near communities. That means we reduce the Farm-To-Table distance from miles to food steps. By growing locally, we are able to retain the freshness and flavour of our produce
                 </p>
               </div>
             </div>
-            <div class="xl:w-1/3 md:w-1/3 p-4">
+            <div class="xl:w-1/3 md:w-1/3 p-4" data-aos="zoom-out" data-aos-duration="2500">
               <div class="border border-gray-200 p-6 rounded-lg">
                 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
                     <h4>2</h4>
                   
                 </div>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Fresh Harvest</h2>
-                <p class="leading-relaxed text-base">Our hydroponic farm systems produce delicious and healthy greens and microgreens that are 100% GMO-free, free of pesticides and chemicals and full of flavours. </p>
+                <h2 class="text-3xl text-gray-900 font-medium title-font mb-2 design">Deliver Fresh</h2>
+                <p class="leading-relaxed text-base">Our hydroponic farm systems produce delicious and healthy produce that are free of pesticides and chemicals. Our produce is always fresh as we do not harvest unless you place orders. We deliver within hours of placing orders. No post- harvest treatment/cold storage is required</p>
               </div>
             </div>
-            <div class="xl:w-1/3 md:w-1/3 p-4">
+            <div class="xl:w-1/3 md:w-1/3 p-4" data-aos="zoom-in" data-aos-duration="2500">
               <div class="border border-gray-200 p-6 rounded-lg">
                 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
                   <h4>3</h4>
                 </div>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Belongingness</h2>
-                <p class="leading-relaxed text-base">Our farm is the perfect place to gain deeper understanding about the food that you buy from us. Additionally we offer you a chance to see a farm in action and experience future of farming.
+                <h2 class="text-3xl text-gray-900 font-medium title-font mb-2 design">Ensure Food Security</h2>
+                <p class="leading-relaxed text-base">We are a hyper local farm, growing right within the city. That means we are able to provide healthy and safe food during crises and challenging times. Additionally, we believe that everyone has a right to enjoy safe food. We are absolutely affordable!
                   
                 </p>
               </div>
             </div>
-            <div class="xl:w-1/2 md:w-1/2 p-4">
-              <div class="border border-gray-200 p-6 rounded-lg">
+            <div class="xl:w-1/1 md:w-1/1 p-4" data-aos="zoom-out" data-aos-duration="2500">
+              <div class="border border-gray-200 p-6 rounded-lg text-center">
                 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
                   <h4>4</h4>
                 </div>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Sustainability</h2>
-                <p class="leading-relaxed text-base">While caring about our people, we are fully aware of  our footprints on the Planet. We are gentle and responsible in our farming methods as we Grow Sustainability.</p>
-              <!-- <ul>
-                <li><span>Pesticides or herbicides Free | </span>We grow everything without using pesticides, herbicides, harmful chemicals or synthetic hormones. Our produce is thus always clean and healthier.
-
-                </li>
-                <li>
-                  <span>90% less water | </span>Our advanced hydroponic methods conserve 90% less water as compared to conventional farming, which makes us more environmentally sustainable.
-
-                </li>
-              </ul> -->
+                <h2 class="text-3xl text-gray-900 font-medium title-font mb-2 design">Create Belongingness</h2>
+                <p class="leading-relaxed text-base">4.When we appreciate food more than a fuel source, we build relationship with it! Our farm is the perfect place to gain deeper understanding about the food that you eat. We offer you a chance to see a farm in action, experience future of farming, reconnect and rekindle your relationship with food and more over try your hands on cultivation!</p>
+              
               </div>
             </div>
-            <div class="xl:w-1/2 md:w-1/2 p-4">
+
+            <div class="xl:w-1/1 md:w-1/1 p-4 " data-aos="zoom-in" data-aos-duration="2500">
+              <div class="border border-gray-200 p-6 rounded-lg text-center">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
+                  <h4>4</h4>
+                </div>
+                <h2 class="text-3xl text-gray-900 font-medium title-font mb-2 design">Grow Sustainability</h2>
+                <p class="leading-relaxed text-base">We are gentle and responsible in our farming methods as we Grow Sustainability. Our farming methods allow us to minimize reliance on natural resources ( arable land and water) and maximize yields. Our produce is always:</p>
+                <br>
+                <ul class="list-disc text-left">
+                  <li> Pesticide Free: Our greens and microgreens are of the highest quality and grown purely, without using pesticides, herbicides, fungicides, or any other chemicals. This makes our produce nutritionally dense, healthier, safe and protected.</li><br>
+                  <li>Clean: Our greens are clean right from seedling up to your kitchen.  Most greens are washed in chemicals for preservation because they are grown outdoors amongst pollutants and are transported thousands of miles.  We use eco-friendly practices to maintain cleanliness at our farms. </li><br>
+                  <li>85% less water and land: Our advanced hydroponic methods conserve 85% less water and land as compared to conventional farming. That means we are more environmentally sustainable and we grow more for less.</li><br>
+                  <li>Green: We call our produce “green” because our approach right from seed to packaging is “green”.  Our We grow in greenhouses that ensure optimum growing conditions like perfect temperature, humidity and natural sunlight for plants to flourish in all seasons. We generate minimal food and resources waste and ensure that our packaging practices are kind.</li><br>
+                 </ul>
+              
+              </div>
+            </div>
+
+            <!-- <div class="xl:w-1/2 md:w-1/2 p-4">
               <div class="border border-gray-200 p-6 rounded-lg">
                 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
                   <h4>5</h4>
@@ -164,7 +189,9 @@
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Food Security</h2>
                 <p class="leading-relaxed text-base">Everyone has a right to enjoy healthy and safe food. We offer or produce at affordable prices so that everyone has access to locally grown food.</p>
               </div>
-            </div>
+            </div> -->
+
+
             <!-- <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="border border-gray-200 p-6 rounded-lg">
                 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
@@ -177,6 +204,7 @@
           <!-- </div>
           <button class="flex mx-auto mt-16 text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg">Button</button>
         </div> -->
+        </div>
       </section>
       <!-- 1st section end (content 3) -->
 
@@ -277,6 +305,7 @@
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="script.js"></script>
     
 </body>
